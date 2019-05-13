@@ -1,0 +1,18 @@
+@media print {
+  .container {
+    width: auto;
+  }
+  .btn {
+    display: none;
+  }
+  .ct-chart {
+    page-break-after: always;
+    padding-bottom: 25%;
+    width: 100%;
+    height: auto;
+  }
+  .ct-series-b .ct-bar,
+  .ct-series-a .ct-bar {
+    stroke-width: 10px;
+  }
+}

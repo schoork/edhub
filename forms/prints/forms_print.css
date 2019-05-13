@@ -1,0 +1,81 @@
+@media print {
+  @page {
+    size: letter landscape;
+    margin: 2cm;
+  }
+
+}
+
+.entry {
+  border-bottom: 1px solid black;
+}
+
+#infoTable {
+  border-collapse: separate;
+  border-spacing: 10px 0px;
+}
+
+.infoTable {
+  border-collapse: separate;
+  border-spacing: 10px 0px;
+}
+
+body {
+  padding: 15px;
+  font-size: 0.75em;
+  font-family: Sans-Serif;
+}
+
+.label {
+  font-size: 0.4em;
+  font-weight: bold;
+}
+
+.label > td {
+  padding-bottom: .3em;
+}
+
+.signed {
+  font-family: cursive;
+  border-bottom: 1px solid black;
+}
+
+#districtName {
+  font-family: Serif;
+  font-style: italic;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+td {
+  padding-left: .3em;
+  padding-right: .3em;
+}
+
+.bordered-table td, .bordered-table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.text_right {
+  text-align: right;
+  width: 100%;
+}
+
+span.text-underline {
+  border-bottom: 1px solid black;
+}
+
+#signedTable {
+  border-collapse: separate;
+  border-spacing: 20px 0px;
+  text-align: center;
+}
+
+.signedRow {
+  height: 2em;
+}
+
+.reimbTable td {
+  text-align: right;
+}

@@ -1,0 +1,25 @@
+@media print {
+  @page {
+    size: letter landscape;
+    margin: 2cm;
+  }
+  body {
+    padding: 15px;
+    font-size: 0.75em;
+    font-family: Sans-Serif;
+  }
+  .page-start {
+    page-break-before: always;
+  }
+
+}
+
+tr.linetitlerow {
+  background-color: #f2f2f2;
+  text-weight: bold;
+  text-align: center;
+}
+
+td.monetary, th.monetary {
+  text-align: right;
+}

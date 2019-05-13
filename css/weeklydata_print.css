@@ -1,0 +1,46 @@
+@media print {
+  @page {
+    size: letter landscape;
+    margin: 2cm;
+  }
+
+
+}
+
+body {
+  padding: 15px;
+  font-size: 90%;
+  font-family: Sans-Serif;
+}
+
+.ct-bar {
+  stroke-width: 60px;
+}
+
+.large-font {
+  font-size: 150%;
+}
+
+#datapointDiv {
+  position: relative;
+  top: -250px;
+  left: 600px;
+  background: blue;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  color: white;
+  text-align: center;
+  font-size: 120%;
+  vertical-align: text-middle;
+  box-shadow: 5px 5px grey;
+  display: table;
+  margin 0 auto;
+}
+
+.content {
+    padding: 10px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}

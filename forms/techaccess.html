@@ -1,0 +1,113 @@
+<form method="post" action="service.php">
+  <input type="hidden" name="action" value="addRequisition">
+  <input type="hidden" name="itemTotal" id="itemTotal" value="1">
+  <h1>
+    Technology Access Form
+  </h1>
+  <p class="lead">
+    Use this form to request technology access within the district.
+  </p>
+  <p>
+    This form must be completed before email, computer, and account access can be issued.
+  </p>
+  <h2>
+    Your Information
+  </h2>
+  <div class="form-group row">
+    <label for="firstname" class="col-sm-3 col-form-label">First Name</label>
+    <div class="col-sm-9">
+      <input type="text" name="firstname" class="form-control" id="firstname">
+      <small class="muted-text text-danger">Required</small>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="lastname" class="col-sm-3 col-form-label">Last Name</label>
+    <div class="col-sm-9">
+      <input type="text" name="lastname" class="form-control" id="lastname">
+      <small class="muted-text text-danger">Required</small>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="mi" class="col-sm-3 col-form-label">Middle Initial</label>
+    <div class="col-sm-1">
+      <input type="text" name="mi" class="form-control" id="mi">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="email" class="col-sm-3 col-form-label">Email Address</label>
+    <div class="col-sm-9">
+      <input type="email" name="email" class="form-control" id="email">
+      <small class="muted-text text-danger">Required</small><br/>
+      <small class="muted-text">This will be used to send you confirmation of this form and links for access.</small>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="phone" class="col-sm-3 col-form-label">Phone Number</label>
+    <div class="col-sm-9">
+      <input type="text" name="phone" class="form-control" id="phone" placeholder="662-555-5555">
+      <small class="muted-text text-danger">Required</small><br/>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="ssn" class="col-sm-3 col-form-label">Last Four Digits of SSN</label>
+    <div class="col-sm-9">
+      <input type="password" name="ssn" class="form-control" id="ssn">
+      <small class="muted-text text-danger">Required</small><br/>
+    </div>
+  </div>
+  <h2>
+    Employment Information
+  </h2>
+  <div class="form-group row">
+    <label for="travel_start" class="col-sm-3 col-form-label">School/Location Employed</label>
+    <div class="col-sm-9">
+      <select id="location" name="location" class="form-control">
+        <option disabled selected></option>
+        <option value="Sanders">Sanders Elementary</option>
+        <option value="Simmons">Simmons Jr/Sr High School</option>
+        <option value="District Office">District Office</option>
+      </select>
+      <small class="muted-text text-danger">Required</small>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="col-sm-3">Access Requested</label>
+    <div class="col-sm-9">
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" name="access[]" value="Computer Access">
+          HSD Computer Access
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" name="access[]" value="Email Access">
+          HSD Email Access
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" name="access[]" value="SAM">
+          SAM (Student Information System)
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" name="access[]" value="MSIS">
+          MSIS (Misssissippi Student Information System)*
+        </label>
+      </div>
+      <small class="muted-text text-danger">Required</small><br/>
+      <small class="muted-text">Select all that apply</small><br/>
+      <small class="muted-text">*Access to this system must be approved by your direct supervisor and additional paperwork is required.</small>
+    </div>
+  </div>
+  <p>
+    A copy of your responses will be emailed to the address you provided.
+  </p>
+  <div id="alert" class="alert" role="alert">
+          
+  </div>
+  <a class="btn btn-primary" href="#!">Submit</a> 
+  <a class="btn btn-danger" href="forms.php">Cancel</a>
+</form>

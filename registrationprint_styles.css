@@ -1,0 +1,24 @@
+@media print {
+  @page {
+    margin: 2cm;
+  }
+  h4 < div < div {
+    page-break-before: always;
+  }
+}
+
+body {
+  padding: 15px;
+  font-size: 0.75em;
+  font-family: Sans-Serif;
+}
+
+td {
+  padding-left: .3em;
+  padding-right: .3em;
+}
+
+.bordered-table td, .bordered-table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}

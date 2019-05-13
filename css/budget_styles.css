@@ -1,0 +1,8 @@
+.dataTbl {
+  font-family: Arial, monospace;
+  font-size: 80%;
+}
+
+.dataTbl td.monetary-col {
+  text-align: right;
+}

@@ -1,0 +1,23 @@
+@media print {
+  @page {
+    size: letter landscape;
+    margin: 2cm;
+  }
+
+
+}
+
+body {
+  padding: 15px;
+  font-size: 50%;
+  font-family: Sans-Serif;
+}
+
+table, tr, th, td {
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+.ct-chart {
+  width: 800px;
+}

@@ -1,0 +1,53 @@
+@media print {
+  @page {
+    size: letter landscape;
+    margin: 2cm;
+  }
+
+
+}
+
+body {
+  padding: 15px;
+  font-size: 90%;
+  font-family: Sans-Serif;
+}
+
+.ct-chart {
+  width: 350px;
+}
+
+.ct-series-a .ct-slice-pie {
+  /* give your pie slices some outline or separate them visually by using the background color here */
+  stroke: white;
+  /* outline width */
+  stroke-width: 5px;
+}
+
+.ct-series-b .ct-slice-pie {
+  /* give your pie slices some outline or separate them visually by using the background color here */
+  stroke: white;
+  /* outline width */
+  stroke-width: 5px;
+}
+
+.ct-series-c .ct-slice-pie {
+  /* give your pie slices some outline or separate them visually by using the background color here */
+  stroke: white;
+  /* outline width */
+  stroke-width: 5px;
+}
+
+.ct-series-d .ct-slice-pie {
+  /* give your pie slices some outline or separate them visually by using the background color here */
+  stroke: white;
+  /* outline width */
+  stroke-width: 5px;
+}
+
+.ct-series-e .ct-slice-pie {
+  /* give your pie slices some outline or separate them visually by using the background color here */
+  stroke: white;
+  /* outline width */
+  stroke-width: 5px;
+}

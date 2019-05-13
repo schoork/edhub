@@ -1,0 +1,13 @@
+#growwer{
+    width:200px;
+    height:200px;
+    background-color:#00f;
+    position:absolute;
+    display:none;
+}
+
+#container{
+    border:1px solid #666;
+    width: 500px;
+    height:500px;
+}

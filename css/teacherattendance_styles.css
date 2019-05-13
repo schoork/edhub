@@ -1,0 +1,12 @@
+@media print {
+  @page {
+    size: letter landscape;
+    margin: 2cm;
+  }
+}
+
+body {
+  padding: 15px;
+  font-size: 90%;
+  font-family: Sans-Serif;
+}
